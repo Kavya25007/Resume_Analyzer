@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #111827;
+}
+.shell, .result-shell {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 260px;
+  background: #0f172a;
+  color: white;
+  padding: 28px;
+}
+.main {
+  flex: 1;
+  padding: 28px;
+}
+.hero, .top-banner {
+  background: linear-gradient(135deg, #1f3c88, #2563eb);
+  color: white;
+  padding: 24px;
+  border-radius: 18px;
+  margin-bottom: 22px;
+}
+.panel, .card, .stat-box {
+  background: white;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+.cards, .stat-row, .grid2 {
+  display: grid;
+  gap: 18px;
+}
+.cards {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 18px;
+}
+.stat-row {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-bottom: 18px;
+}
+.grid2 {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin-bottom: 18px;
+}
+.upload-box {
+  display: block;
+  border: 2px dashed #a5b4fc;
+  padding: 30px;
+  text-align: center;
+  border-radius: 14px;
+  background: #f8fbff;
+  cursor: pointer;
+}
+.upload-box input {
+  display: block;
+  margin: 0 auto 10px;
+}
+button {
+  margin-top: 16px;
+  background: #1f3c88;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.alert {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.pill {
+  display: inline-block;
+  background: #e0ecff;
+  color: #1f3c88;
+  padding: 8px 12px;
+  border-radius: 999px;
+  margin: 6px 8px 0 0;
+}
+.big-score {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0f172a;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+.back-link {
+  margin-top: 10px;
+}
+.back-link a {
+  color: #1f3c88;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .shell, .result-shell {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: auto;
+  }
+}

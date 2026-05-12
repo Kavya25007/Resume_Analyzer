@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="result-shell">
+  <div class="top-banner">
+    <h1>Analysis Result</h1>
+    <p>File: {{ filename }}</p>
+  </div>
+
+  <section class="stat-row">
+    <div class="stat-box">
+      <h3>Resume Score</h3>
+      <div class="big-score">{{ score }}/100</div>
+    </div>
+    <div class="stat-box">
+      <h3>ATS Signals</h3>
+      <div class="pill">Email: {{ 'Yes' if ats.email_found else 'No' }}</div>
+      <div class="pill">Phone: {{ 'Yes' if ats.phone_found else 'No' }}</div>
+      <div class="pill">LinkedIn: {{ 'Yes' if ats.linkedin_found else 'No' }}</div>
+      <div class="pill">GitHub: {{ 'Yes' if ats.github_found else 'No' }}</div>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="panel">
+      <h2>Suggestions</h2>
+      <ul>
+        {% for item in suggestions %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="panel">
+      <h2>Graph</h2>
+      <img src="{{ graph_url }}" alt="Resume graph">
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Keyword Analysis</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Section</th>
+          <th>Matched Count</th>
+          <th>Matched Terms</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in table_rows %}
+        <tr>
+          <td>{{ row.section }}</td>
+          <td>{{ row.matched_count }}</td>
+          <td>{{ row.matched_terms }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  <div class="back-link">
+    <a href="{{ url_for('dashboard.home') }}">← Analyze another resume</a>
+
+  </div>
+</div>
+{% endblock %}

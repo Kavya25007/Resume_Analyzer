@@ -1,0 +1,1 @@
+print("Resume Score Analyzer setup complete. Run: python run.py")
