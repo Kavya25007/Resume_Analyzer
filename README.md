@@ -1,221 +1,206 @@
-Resume Score Analyzer
-A web-based application built using Python and Flask that analyzes resumes and provides a score based on important parameters like skills, education, experience, and keywords. The project also gives suggestions to improve resumes and displays analysis using graphical representation.
+# 🚀 Resume Score Analyzer
 
-🚀 Live Demo
-👉 Click Here: Add Your Live Link Here
-👉 [Click Here](https://your-live-project-link.com)
+<div align="center">
 
-📌 Features
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue?style=for-the-badge&logo=numpy)
 
+### 📄 Smart Resume Analysis & Scoring Web Application
 
-Resume Upload System
+Analyze resumes intelligently, calculate resume scores, and get improvement suggestions instantly.
 
+<br>
 
-Keyword-Based Resume Analysis
+<a href="YOUR_LIVE_LINK_HERE" target="_blank">
+  <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-success?style=for-the-badge">
+</a>
 
+</div>
 
-Resume Scoring System
+---
 
+# 📌 About The Project
 
-Suggestions for Improvement
+**Resume Score Analyzer** is a smart web application developed using **Python** and **Flask** that helps students and job seekers evaluate their resumes.
 
+The system analyzes important resume sections like:
 
-Graphical Representation using Matplotlib
+✔ Skills  
+✔ Education  
+✔ Experience  
+✔ Keywords  
 
+and generates:
 
-User-Friendly Interface
+✅ Resume Score  
+✅ Improvement Suggestions  
+✅ Graphical Analysis  
 
+This project helps users create stronger resumes for better job opportunities.
 
+---
 
-🛠 Technologies Used
+# ✨ Features
 
+🔹 Upload Resume Files  
+🔹 Keyword-Based Resume Analysis  
+🔹 Resume Scoring System  
+🔹 Skill Detection  
+🔹 Suggestions for Resume Improvement  
+🔹 Graph Visualization using Matplotlib  
+🔹 User-Friendly Interface  
+🔹 Fast & Simple Processing  
 
-Python
+---
 
+# 🛠 Tech Stack
 
-Flask
+| Technology | Usage |
+|------------|-------|
+| Python | Backend Development |
+| Flask | Web Framework |
+| Pandas | Data Processing |
+| NumPy | Score Calculation |
+| Matplotlib | Data Visualization |
+| OOP | Structured Programming |
+| File Handling | Resume Reading & Processing |
 
+---
 
-Pandas
+# ⚙️ Working Process
 
+```mermaid
+graph TD;
+    A[Upload Resume] --> B[Extract Resume Data]
+    B --> C[Keyword Analysis]
+    C --> D[Calculate Resume Score]
+    D --> E[Generate Suggestions]
+    E --> F[Display Results & Graphs]
+```
 
-NumPy
+---
 
+# 📂 Project Modules
 
-Matplotlib
+### 🔹 User Interface Module
+Built using Flask for interaction with users.
 
+### 🔹 File Processing Module
+Reads and processes uploaded resumes.
 
-File Handling
+### 🔹 Data Analysis Module
+Uses Pandas and NumPy for analysis and scoring.
 
+### 🔹 Visualization Module
+Generates graphs using Matplotlib.
 
-Object-Oriented Programming (OOP)
+### 🔹 Suggestion Module
+Provides resume improvement recommendations.
 
+---
 
+# 🎯 Objectives
 
-📖 Project Description
-The Resume Score Analyzer helps students and job seekers understand the quality of their resumes. Users can upload their resumes, and the system analyzes important sections such as:
+- Analyze resume content effectively
+- Generate accurate resume scores
+- Provide useful improvement suggestions
+- Visualize analysis using graphs
+- Build a responsive and user-friendly system
 
+---
 
-Skills
+# 🔮 Future Enhancements
 
+🚀 AI-Based Resume Analysis  
+🚀 ATS Compatibility Checker  
+🚀 Job Recommendation System  
+🚀 Online Deployment  
+🚀 Advanced NLP-Based Keyword Matching  
 
-Education
+---
 
+# ⚠️ Limitations
 
-Experience
+- Basic keyword matching technique
+- No advanced AI integration
+- Limited predefined dataset
 
+---
 
-Keywords
+# 📸 Output Preview
 
+_Add screenshots of your project here_
 
-The application calculates a resume score and provides suggestions to improve missing areas or important skills.
+Example:
 
-⚙️ Methodology
+- 📷 Home Page
+- 📷 Resume Upload Page
+- 📷 Result Dashboard
 
+---
 
-User uploads the resume file.
+# 💻 Installation Guide
 
+## Clone Repository
 
-The system reads the file using file handling techniques.
+```bash
+git clone https://github.com/your-username/resume-score-analyzer.git
+```
 
+## Move to Project Folder
 
-Important keywords are extracted.
+```bash
+cd resume-score-analyzer
+```
 
+## Install Dependencies
 
-Pandas organizes and processes the data.
+```bash
+pip install -r requirements.txt
+```
 
+## Run Flask Server
 
-NumPy calculates the resume score.
+```bash
+python app.py
+```
 
+---
 
-Matplotlib generates graphs for visualization.
+# 🌐 Live Project
 
+<div align="center">
 
-Flask displays the final result and suggestions.
+## 👉 [CLICK HERE TO VIEW LIVE PROJECT](YOUR_LIVE_LINK_HERE)
 
+</div>
 
+---
 
-🔄 System Workflow
+# 🤝 Contributors
 
+<div align="center">
 
-Open the web application
+| Name | Role |
+|------|------|
+| **Shivam Maurya** | Developer |
+| **Kavya Kushwaha** | Developer |
 
+</div>
 
-Upload the resume
+---
 
+# 📜 License
 
-Resume processing starts
+This project is made for educational purposes only.
 
+---
 
-Keywords are analyzed
+<div align="center">
 
+### ⭐ Don't forget to Star this Repository ⭐
 
-Score is calculated
-
-
-Suggestions and graphs are displayed
-
-
-
-📂 Project Modules
-
-
-User Interface Module (Flask)
-
-
-File Processing Module
-
-
-Data Analysis Module
-
-
-Visualization Module
-
-
-Suggestion Module
-
-
-
-🎯 Objectives
-
-
-Analyze resume content using keywords
-
-
-Calculate resume score
-
-
-Provide improvement suggestions
-
-
-Visualize resume data
-
-
-Build an easy-to-use web application
-
-
-
-🔮 Future Scope
-
-
-AI-Based Resume Analysis
-
-
-Job Recommendation System
-
-
-ATS Compatibility Checking
-
-
-Full Online Deployment
-
-
-
-⚠️ Limitations
-
-
-Uses basic keyword matching
-
-
-Advanced AI analysis not implemented
-
-
-Limited predefined parameters
-
-
-
-✅ Expected Outcome
-The system successfully analyzes resumes and generates:
-
-
-Resume Score
-
-
-Strength Analysis
-
-
-Weakness Analysis
-
-
-Suggestions for Improvement
-
-
-
-🤝 Contributors
-
-
-Shivam Maurya
-
-
-Kavya Kushwaha
-
-
-
-📜 Conclusion
-The Resume Score Analyzer is a helpful tool for students and job seekers to evaluate and improve their resumes. It provides meaningful insights and helps users build stronger resumes for better career opportunities.
-
-⭐ GitHub Setup
-git clone https://github.com/your-username/resume-score-analyzer.gitcd resume-score-analyzerpip install -r requirements.txtpython app.py
-
-📄 License
-This project is for educational purposes.
+</div>
+````
