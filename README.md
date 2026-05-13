@@ -134,7 +134,7 @@ Provides resume improvement recommendations.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/resume-score-analyzer.git
+git clone https://github.com/Kavya25007/resume-score-analyzer.git
 ```
 
 ## Move to Project Folder
@@ -155,15 +155,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
----
-
-# 🌐 Live Project
-
-<div align="center">
-
-## 👉 [CLICK HERE TO VIEW LIVE PROJECT](YOUR_LIVE_LINK_HERE)
-
-</div>
 
 ---
 
