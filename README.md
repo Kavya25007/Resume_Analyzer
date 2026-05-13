@@ -129,18 +129,6 @@ Provides resume improvement recommendations.
 
 ---
 
-# 📸 Output Preview
-
-_Add screenshots of your project here_
-
-Example:
-
-- 📷 Home Page
-- 📷 Resume Upload Page
-- 📷 Result Dashboard
-
----
-
 # 💻 Installation Guide
 
 ## Clone Repository
